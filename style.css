@@ -25,3 +25,42 @@ html {
   font-family: "Big Shoulders Display", sans-serif;
   font-family: "Lexend Deca", sans-serif;
 }
+
+body {
+    background-color: var(--neutral-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 370px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.section-one {
+    background-color: var(--primary-color-accent);
+}
+
+.section-two {
+    background-color: var(--primay-color-600);
+}
+
+.section-three {
+    background-color: var(--primary-color-800);
+}
+
+h2 {
+    color: var(--neutral-color);
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+    color: var(--neutral-color-paragraphs);
+    font-family: "Lexend Deca", sans-serif;
+}
