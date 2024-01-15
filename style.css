@@ -93,10 +93,10 @@ p {
 
 button {
   background-color: var(--neutral-color);
-  border: none;
+  border: 2px solid transparent;
   padding: 15px 25px;
   border-radius: 25px;
-  width: 50%;
+  width: 60%;
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -112,9 +112,15 @@ button {
   color: var(--primary-color-800);
 }
 
-@media screen and (min-width: 850px) {
+button:hover {
+  color: var(--neutral-color-paragraphs);
+  border: 2px solid var(--neutral-color-paragraphs);
+  background-color: transparent;
+}
+
+@media screen and (min-width: 600px) {
   .container {
-    max-width: 75vw;
+    max-width: 950px;
     display: flex;
   }
   .section-one {
