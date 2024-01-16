@@ -1,6 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -28,7 +29,10 @@ html {
 
 body {
   background-color: var(--neutral-color);
-  height: 100vh;
+  height: 100%;
+}
+
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +41,6 @@ body {
 
 .container {
   max-width: 350px;
-  margin-bottom: 2rem;
 }
 
 .section-one {
@@ -122,6 +125,10 @@ button:hover {
   .container {
     max-width: 950px;
     display: flex;
+  }
+
+  main {
+    height: 100vh;
   }
   .section-one {
     border-radius: 10px 0 0 10px;
